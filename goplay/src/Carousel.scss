@@ -1,0 +1,45 @@
+.carousel {
+  position: relative;
+  width: 24%;
+  h2, p {
+    color: #595F7B;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 20px;
+  }
+  h2 {
+    margin-bottom: 0px;
+  }
+}
+
+.zender {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 120px;
+  width: 100%;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  ::after {
+    content: '';
+  }
+  img {
+    width: 200px;
+  }
+}
+
+.scrollContainer {
+  height: 100%;
+}
+
+.scroll{
+  overflow-y: scroll;
+  height: 100%;
+  box-sizing: content-box;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
