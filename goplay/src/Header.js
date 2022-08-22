@@ -5,8 +5,9 @@ import logo from "./assets/goPLAYLOGO.svg"
 function Header() {
   return (
     <div id="nav" className="toolbar" role="banner">
-
-      <img src={logo} alt="GoPlay Logo" height="80px" id="logo"/>
+      <a href='https://goplay-angular-eb33a.web.app/'>
+      <img to src={logo} alt="GoPlay Logo" height="80px" id="logo"/>
+      </a>
 
       <div className="searchbar">
         <input className="searchInput"type="text" name="" placeholder="Search"/>
